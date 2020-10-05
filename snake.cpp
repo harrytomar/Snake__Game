@@ -106,7 +106,7 @@ void Logic()
 	int prev_x = tail_X[0];
 	int prev_y = tail_Y[0];
 	int prev2x,prev2y;
-	tail_X[0]=x;
+	tail_X[0]=x;    // follow head
 	tail_Y[0] = y;
 	for(int i=1;i<nTail;i++)
 	{
