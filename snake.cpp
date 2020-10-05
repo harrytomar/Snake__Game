@@ -7,7 +7,7 @@ bool gameOver;
 const int w = 20;
 const int h = 20;
 int x,y,fruit_x,fruit_y,score;
-int tail_X[100],tail_Y[100];
+int tail_X[100],tail_Y[100];   // holds x and y coordinates of tales and we print them in draw function.
 int nTail;
 enum eDirection { STOP=0,LEFT,RIGHT,UP,DOWN
 };
